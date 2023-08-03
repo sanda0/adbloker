@@ -67,7 +67,7 @@ onMounted(async () => {
             <van-switch v-model="isCan" />
         </van-row>
 
-
+        <a href="https://github.com/sanda0">sanda0</a>
     </div>
 </template>
 <style>

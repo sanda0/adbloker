@@ -1,7 +1,6 @@
 import { canBlockAds } from "./utils";
 setInterval(async () => {
   var can = await canBlockAds();
-  // console.log(can);
   if (can) {
     const adCells = document.querySelectorAll("#dismissible");
     adCells.forEach((el) => {
